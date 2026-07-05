@@ -1,6 +1,6 @@
 # Homework 3: Orchestration
 
-## 2. The non-RAG response about Kestra 1.1 features is best described as
+## Question 2: RAG vs No RAG
 
 ```
 2026-07-05T13:54:14.515830Z INFO ❌ Response WITHOUT RAG (no retrieved context):
@@ -35,8 +35,6 @@ Kestra 1.1 introduced several exciting features that significantly enhanced its 
 
 👉 This is why context matters! Run `2_chat_with_rag.yaml` to see the accurate, context-grounded response.
 ```
-
-## 3. What is the approximate output token count for multilingual_agent when running with summary_length = short?
 
 ```
 2026-07-05T13:56:17.463049Z INFO ✅ RAG Response (with retrieved context):

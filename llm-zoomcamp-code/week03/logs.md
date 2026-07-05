@@ -2,6 +2,7 @@
 
 ## 2. The non-RAG response about Kestra 1.1 features is best described as
 
+```
 2026-07-05T13:54:14.515830Z INFO ❌ Response WITHOUT RAG (no retrieved context):
 Kestra 1.1 introduced several exciting features that significantly enhanced its capabilities. Here are 5 major features with brief descriptions:
 
@@ -33,9 +34,11 @@ Kestra 1.1 introduced several exciting features that significantly enhanced its 
 - Listing features that haven't been added in exactly this version but rather a long time ago?
 
 👉 This is why context matters! Run `2_chat_with_rag.yaml` to see the accurate, context-grounded response.
+```
 
 ## 3. What is the approximate output token count for multilingual_agent when running with summary_length = short?
 
+```
 2026-07-05T13:56:17.463049Z INFO ✅ RAG Response (with retrieved context):
 Kestra 1.1 introduced several major features. Here are at least 5 of them:
 
@@ -50,9 +53,11 @@ Kestra 1.1 introduced several major features. Here are at least 5 of them:
 5.  **Human Task**: For Enterprise Edition users, the new `HumanTask` allows for manual approval steps in workflows. When an execution reaches a human task, it pauses until designated users or group members approve and resume it, enabling human-in-the-loop workflows.
 
 🎉 Note that this response is detailed, accurate, and grounded in the actual release documentation. Compare this with the output from 1_chat_without_rag.yaml!
+```
 
 ## Token usage — medium summary
 
+```
 2026-07-05T13:58:12.523478Z INFO 📊 Token Usage Summary:
 
 Multilingual Agent:
@@ -66,9 +71,11 @@ English Brevity Agent:
 - Total tokens: 191
 
 💡 Tip: Monitor token usage to understand costs and optimize prompts!
+```
 
 ## Question 3: Token usage — short summary
 
+```
 2026-07-05T13:59:49.055834Z INFO 📊 Token Usage Summary:
 
 Multilingual Agent:
@@ -82,9 +89,11 @@ English Brevity Agent:
 - Total tokens: 155
 
 💡 Tip: Monitor token usage to understand costs and optimize prompts!
+```
 
 ## Question 4: Token usage — long summary
 
+```
 INFO 2026-07-05T14:00:36.700879Z 📊 Token Usage Summary:
 
 Multilingual Agent:
@@ -98,9 +107,11 @@ English Brevity Agent:
 - Total tokens: 253
 
 💡 Tip: Monitor token usage to understand costs and optimize prompts!
+```
 
 ## Question 5: Modifying a flow
 
+```
 2026-07-05T14:02:36.432931Z INFO 📊 Token Usage Summary:
 
 Multilingual Agent:
@@ -114,3 +125,4 @@ English Brevity Agent:
 - Total tokens: 293
 
 💡 Tip: Monitor token usage to understand costs and optimize prompts!
+```
